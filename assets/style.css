@@ -2,8 +2,8 @@
     font-family:"sabotage" ;
     font-weight: 400;
     font-style: normal;
-    src: url("assets/sabotage.woff2") format ("woff2");
-    src: url("assets/sabotage.woff") format ("woff");
+    src: url("sabotage.woff2") format ("woff2");
+    src: url("sabotage.woff") format ("woff");
 }
 
  @font-face {
@@ -36,4 +36,16 @@
     src: url('HelveticaNeueLTStd-Roman.woff2') format('woff2');
     src: url('HelveticaNeueLTStd-Roman.woff') format('woff');
 
+}
+
+html {
+    background-color: beige;
+}
+
+body {
+font-family: 'Helvetica Neue Roman' ;
+.kicker { 
+    display: block;
+    margin-bottom: 0.5rem;
+}
 }
